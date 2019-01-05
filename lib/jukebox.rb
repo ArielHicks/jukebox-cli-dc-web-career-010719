@@ -41,9 +41,10 @@ def play(songs)
     puts "Playing #{user_response}"
   else
     puts "Invalid input, please try again"
+        end
+      end
+    end
   end
-end
-end
 end
 
 play(songs)
