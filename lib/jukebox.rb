@@ -1,23 +1,4 @@
-# animals = {"sugar glider"=>"Australia","aye-aye"=> "Madagascar","red-footed tortoise"=>"Panama","kangaroo"=> "Australia","tomato frog"=>"Madagascar","koala"=>"Australia"}
 
-# class Hash
-#   def keys_of(*arguments)
-#     collect {|key, value| arguments.include?(value) ? key : nil }.compact
-#   end
-# end
-
-# result = animals.keys_of('Madagascar')
-# result.length
-##USING SPLAT OPERATOR TO CHANGE ARGUMENTS
-
-# def say_hello(name)
-#   "Hi #{name}!"
-# end
-
-# puts "Enter your name:"
-# users_name = gets.chomp
-
-# puts say_hello(users_name)
 
 songs = [
   "Phoenix - 1901",
@@ -96,4 +77,3 @@ def run(songs)
     end
   end
   run(songs)
-    
