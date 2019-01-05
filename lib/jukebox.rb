@@ -46,5 +46,6 @@ def play(songs)
     end
   end
 end
+end
 
 play(songs)
